@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/HediElOuni/To-Do-List
+- Live Site URL: https://to-do-list-heo.netlify.app/
 
 ## My process
 
