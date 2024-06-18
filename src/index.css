@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #161616;
+}
+.all-i,
+.search .material-symbols-outlined,
+.add-field .material-symbols-outlined {
+    padding-right: 8px;
+}
+.main-content {
+    width: calc(100% - 240px);
+    height: 100%;
+}
+.search-container {
+    position: relative;
+}
+.search-results {
+    border-radius: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    background-color: #161616;
+    box-shadow: 0 0 10px #000000;
+}
+.result-item {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.result-list {
+    font-size: 12px;
+    display: block;
+    color: #666666;
+}
+.result-item:hover {
+    background-color: #393939;
+}
+li {
+    padding-inline: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sidebar h3:hover,
+.sidebar li:hover,
+.lists-header:hover,
+.tags-header:hover {
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
+
+.active {
+    color: #0074E0;
+}
+.add-catg {
+    width: 618px;
+    height: 236px;
+    top: calc(50% - 118px);
+    left: calc(50% - 309px);
+    padding: 33px 25px;
+    background-color: #161616;
+}
+.add-catg-btn {
+    background-color: #0074E0;
+    transition: opacity 0.2s;
+}
+
+.filter, .search, .search input,
+.mc-body section {
+    background-color: #161616;
+}
+
+.mc-body {
+    height: calc(100% - 88px);
+}
+.tasks-list {
+    min-width: 335px;
+    width: 470px;
+    height: 100%;
+}
+.task {
+    width: calc(100% - 40px);
+}
+.task:hover {
+    background-color: #393939;
+}
+.check {
+    height: 26px;
+}
+.check-i {
+    background-color: #252525;
+}
+.delete-i {
+    color: #161616;
+}
+.add-task {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.custom-catg {
+    bottom: 104px;
+    left: 0;
+}
+.task-custom {
+    bottom: 64px;
+    left: 0;
+}
+.cc-title {
+    color: #0074E0;
+}
+.cc-tasks {
+    font-size: 14px;
+}
+.task-details {
+    min-width: 570px;
+    height: 100%;
+    overflow-x: hidden;
+}
+.catg-assigned {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #252525;
+    padding: 6px 12px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
+}
+.catg-assigned:hover {
+    cursor: pointer;
+    position: relative;
+    bottom: 2px;
+}
+.tag-i {
+    color: #0074E0;
+}
+.edit-catg {
+    width: 400px;
+    height: 328px;
+    position: absolute;
+    top: calc(50% - 164px);
+    left: calc(50% - 200px);
+    color: white;
+    font-weight: 600;
+    z-index: 20;
+    background-color: #161616;
+    border-radius: 12px;
+}
+.edit-catg-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 42);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.pick-catg {
+    width: 100%;
+    height: 256px;
+    overflow-y: auto;
+}
+.pick-catg-item {
+    padding: 12px;
+    border-bottom: 1px solid #fff;
+}
+.pick-catg-item:not(:first-child):hover {
+    cursor: pointer;
+    background-color: rgb(39, 39, 42);
+}
+.desc-title {
+    color: rgb(156, 163, 175)
+}
+.desc-content::placeholder {
+    color: #444444;
+}
