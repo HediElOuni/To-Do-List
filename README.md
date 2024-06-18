@@ -20,7 +20,7 @@ Users should be able to:
 - View all the lists and tags and edit them.
 - View all the tasks or the tasks for a specific list or tag.
 - Expand a single task to see/edit its details.
-- Add and delete tasks.
+- Add, search and delete tasks.
 
 ### Screenshot
 
