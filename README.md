@@ -1,17 +1,30 @@
+# To Do List
+
+This project was inspired from any.do todo app.
+
 ## Table of contents
 
 - [Overview](#overview)
+  - [Features](#features)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
 
 ## Overview
 
+### Features
+
+Users should be able to:
+
+- View all the lists and tags and edit them.
+- View all the tasks or the tasks for a specific list or tag.
+- Expand a single task to see/edit its details.
+- Add and delete tasks.
+
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./Design/screenshot.png)
 
 ### Links
 
@@ -22,13 +35,8 @@
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Animation
-- Media Queries
-- JS DOM & Loops
-
-## Author
-
-- 'Platform' - [@]()
+- HTML
+- CSS
+- JavaScript
+- Tailwind
+- React
